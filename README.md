@@ -89,3 +89,12 @@ python3 -m http.server 8000
 1. 상담 접수 리드 데이터를 실제로 저장·통지할 백엔드/DB 연동
 2. **관리자 페이지 개발** — 리드 목록 조회, 인사이트(칼럼) 등록, 성공사례 관리 등
 3. 필요 시 `/care/status`(진행현황 조회), `/care/consultant`(전담 컨설턴트 매칭) 등 마이페이지 성격의 페이지 추가
+
+## 이미지·영상 출처
+
+생동감을 위해 무료 라이선스 이미지(Unsplash License)와 영상(Mixkit License)을 추가했습니다. 모두 출처 표기 없이 상업적 이용이 가능한 무료 라이선스입니다.
+
+- 히어로 배경, 성공사례 카드 썸네일(제조업·도소매업·IT·건설업), 지원원 소개 페이지 사진: [Unsplash](https://unsplash.com) — Vitaly Gariev, Daulet Turubayev, Piret Ilver, Christopher Gower, Arron Choi 작가
+- 지원원 소개 페이지 상담 현장 영상: [Mixkit](https://mixkit.co) 무료 스톡 영상
+
+실제 상담 현장 사진·영상이 준비되면 이 예시 이미지들을 교체하는 것을 권장합니다. (경로: `assets/css/style.css`의 `.hero`/`.page-hero` 배경, `index.html`·`cases.html`의 `.case-thumb`, `about/intro.html`의 `.video-block`)
